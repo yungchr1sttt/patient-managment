@@ -1,0 +1,54 @@
+# Java / Maven / Gradle
+target/
+out/
+build/
+*.log
+*.class
+
+# Spring Boot config
+application.yml
+application.properties
+application-*.yml
+application-*.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+# Docker
+**/docker-compose.override.yml
+**/.env
+**/.env.*
+
+# Kafka (если есть логи или tmp-файлы)
+kafka-logs/
+kafka-data/
+
+# PostgreSQL (локальные данные)
+pgdata/
+postgres-data/
+
+# Logs
+logs/
+*.log
+
+# Node.js (если используется фронт)
+node_modules/
+dist/
+.env*
+
+# Git
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
